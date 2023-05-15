@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>콜백함수</title>
     <script>
-        function callbackTest(callback){
+        function callbackTest(callback1){
             for(var i = 0; i < 10; i++){
-                callback();
+                callback1();                // 호출
             }
         }
 
@@ -16,7 +16,7 @@
             alert("함수 호출");
         }
 
-        callbackTest(callback);
+        callbackTest(callback);             // 출력
     </script>
 </head>
 <body>
